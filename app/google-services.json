@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "925103427150",
+    "project_id": "gamemates-1797f",
+    "storage_bucket": "gamemates-1797f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925103427150:android:96c559c7279d520273bd1f",
+        "android_client_info": {
+          "package_name": "com.damir.gamemates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925103427150-dads8ppontben0m83h8ji905bfcfjqbq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.damir.gamemates",
+            "certificate_hash": "7a64537d1a9a2d05f881243b2bbcbfef180bd5e9"
+          }
+        },
+        {
+          "client_id": "925103427150-1q56rovo2k2et3h9ofd3hnrb6hm8gkbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSqUW5tZJBcLOD2CjFvD4_B4Z9-v0YsK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925103427150-1q56rovo2k2et3h9ofd3hnrb6hm8gkbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

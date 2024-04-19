@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GameMates" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="MyHeadlineTextAppearance" parent="TextAppearance.AppCompat.Headline">
+        <!-- Customize the text appearance here if needed -->
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+    <style name="RegistrationTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+
+</resources>

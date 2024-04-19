@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GameMates</string>
+    <string name="hi_welcome">HI! Welcome</string>
+    <string name="sign_in">Sign in</string>
+    <string name="Label_text">to continue to My Application</string>
+    <string name="use_phone">Use phone</string>
+    <string name="email_address_or_username">Email address or username</string>
+    <string name="to_continue">Continue</string>
+    <string name="no_account_sign_up">No account? Sign up</string>
+    <string name="no_account">No account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="already_have_an_account">Already have an account?</string>
+
+    <string name="web_client_id">925103427150-1q56rovo2k2et3h9ofd3hnrb6hm8gkbu.apps.googleusercontent.com</string>
+    <string name="sign_out">Sign Out</string>
+
+</resources>
