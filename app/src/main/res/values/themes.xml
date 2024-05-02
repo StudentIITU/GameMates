@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.GameMates" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.GameMates" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
     <style name="MyHeadlineTextAppearance" parent="TextAppearance.AppCompat.Headline">
         <!-- Customize the text appearance here if needed -->
     </style>
@@ -9,6 +9,16 @@
     </style>
     <style name="RegistrationTheme" parent="Theme.AppCompat.Light.NoActionBar">
     </style>
+
+    
+
+    <style name="FullScreen" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
 
 
 </resources>

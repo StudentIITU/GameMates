@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.ComponentActivity
+import androidx.navigation.findNavController
 import com.damir.gamemates.R
 import com.google.firebase.Firebase
 import com.google.firebase.auth.auth
@@ -14,6 +15,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.home_page)
+//        setContentView(R.layout.home_page)
+
 
         val signOutButton: Button = findViewById(R.id.sign_out_button)
         signOutButton.setOnClickListener {
@@ -25,6 +28,8 @@ class MainActivity : ComponentActivity() {
             finish()
         }
     }
+
+
 }
 
 

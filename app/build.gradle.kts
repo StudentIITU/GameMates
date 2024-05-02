@@ -1,7 +1,10 @@
+import org.jetbrains.kotlin.gradle.targets.js.KotlinJsCompilerAttribute
+
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
     id("com.google.gms.google-services")
+
 
 }
 
@@ -42,6 +45,7 @@ android {
     }
     buildFeatures {
         compose = true
+        viewBinding = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.1"
@@ -70,6 +74,9 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.firebase.auth)
+    implementation(libs.material)
+    implementation(libs.androidx.activity)
+    implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -81,16 +88,17 @@ dependencies {
 
     // Other dependencies ...
     implementation("com.google.android.gms:play-services-location:21.2.0")
+    implementation("com.airbnb.android:lottie:6.4.0")
+    implementation("androidx.core:core-splashscreen:1.0.1")
+    implementation (libs.androidx.legacy.support.v4)
+    implementation(libs.androidx.appcompat)
+    implementation("androidx.appcompat:appcompat-resources:1.6.1")
+
+    // Navigation Component
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation (libs.androidx.navigation.ui.ktx)
 
 
-
-
-
-    val appcompat_version = "1.6.1"
-    implementation("androidx.appcompat:appcompat:$appcompat_version")
-    implementation("androidx.appcompat:appcompat-resources:$appcompat_version")
-
-//    implementation(libs.androidx.appcompat) // Adjust the version if needed
 
 
 }

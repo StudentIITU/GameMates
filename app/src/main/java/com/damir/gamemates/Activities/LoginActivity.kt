@@ -7,6 +7,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.damir.gamemates.R
 import com.google.firebase.auth.FirebaseAuth
 
@@ -61,11 +62,13 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
+    //Checking if email pole is empty or not. If it occurs, a toast message will appear
     private fun validateInput(email: String, password: String): Boolean {
         if (email.isEmpty()) {
             Toast.makeText(this, "Please enter your email", Toast.LENGTH_SHORT).show()
             return false
         }
+        //Checking if password pole is empty or not. If it occurs, a toast message will appear
 
         if (password.isEmpty()) {
             Toast.makeText(this, "Please enter your password", Toast.LENGTH_SHORT).show()
