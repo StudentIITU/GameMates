@@ -126,16 +126,7 @@
                     android:layout_weight="1"
                     android:text="@string/email_address_or_username" />
 
-                <TextView
-                    android:id="@+id/use_phone_label"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/use_phone"
-                    android:textColor="#8A5AF4"
-                    android:textStyle="bold"
 
-
-                    />
 
             </LinearLayout>
 
@@ -171,8 +162,7 @@
                 android:layout_height="32dp"
                 android:background="@drawable/email_roundedcorner_background"
                 android:inputType="textPassword"
-
-                android:hint="@string/password"/>
+/>
 
         </LinearLayout>
 

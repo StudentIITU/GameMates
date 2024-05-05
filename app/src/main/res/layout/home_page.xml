@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/gradient_home_page_background"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
     <!-- Header Section -->
     <RelativeLayout
@@ -47,14 +47,14 @@
                 android:layout_marginLeft="3dp"
                 android:paddingTop="16dp"
                 android:paddingBottom="16dp"
-                android:id="@+id/calm"
+                android:id="@+id/games"
                 android:background="@drawable/color_switch_background_selector_middle"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:button="@null"
                 android:gravity="center"
-                android:text="Calm"
+                android:text="Games"
                 android:fontFamily="sans-serif-medium"
                 android:textColor="@drawable/control_switch_color_selector"/>
             <RadioButton
@@ -69,25 +69,10 @@
                 android:layout_weight="1"
                 android:button="@null"
                 android:gravity="center"
-                android:text="Rumor"
+                android:text="News"
                 android:fontFamily="sans-serif-medium"
                 android:textColor="@drawable/control_switch_color_selector"/>
-            <RadioButton
-                android:layout_marginTop="3dp"
-                android:layout_marginBottom="3dp"
-                android:layout_marginRight="3dp"
-                android:paddingTop="16dp"
-                android:paddingBottom="16dp"
-                android:id="@+id/outbreak"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/color_switch_background_selector"
-                android:button="@null"
-                android:gravity="center"
-                android:text="Outbreak"
-                android:fontFamily="sans-serif-medium"
-                android:textColor="@drawable/control_switch_color_selector" />
+
         </RadioGroup>
 
     </LinearLayout>
@@ -122,8 +107,31 @@
             />
 
 
+
+
     </LinearLayout>
 
+    <me.ibrahimsn.lib.SmoothBottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:menu="@menu/bottom_menu"
+        app:backgroundColor="#1C3E54"
+        app:indicatorColor="#2A648B"/>
+<!--        app:indicatorRadius=""-->
+<!--        app:cornerRadius=""-->
+<!--        app:corners=""-->
+<!--        app:sideMargins=""-->
+<!--        app:itemPadding=""-->
+<!--        app:textColor=""-->
+<!--        app:badgeColor=""-->
+<!--        app:itemFontFamily=""-->
+<!--        app:textSize=""-->
+<!--        app:iconSize=""-->
+<!--        app:iconTint=""-->
+<!--        app:iconTintActive=""-->
+<!--        app:activeItem=""-->
+<!--        app:duration="" />-->
 
 
 </LinearLayout>

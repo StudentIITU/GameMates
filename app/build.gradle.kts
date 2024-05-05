@@ -88,11 +88,16 @@ dependencies {
 
     // Other dependencies ...
     implementation("com.google.android.gms:play-services-location:21.2.0")
+    implementation("com.google.android.gms:play-services-auth:21.1.1")
     implementation("com.airbnb.android:lottie:6.4.0")
     implementation("androidx.core:core-splashscreen:1.0.1")
     implementation (libs.androidx.legacy.support.v4)
     implementation(libs.androidx.appcompat)
     implementation("androidx.appcompat:appcompat-resources:1.6.1")
+    implementation("com.github.ibrahimsn98:SmoothBottomBar:1.7.9")
+    implementation("com.github.bumptech.glide:glide:4.16.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.14.2")
+
 
     // Navigation Component
     implementation(libs.androidx.navigation.fragment.ktx)
