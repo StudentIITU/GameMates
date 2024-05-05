@@ -1,4 +1,5 @@
 README for GameMates Project
+Mates: Nurgali Damir + Arlen Chereshnikov
 Project Overview
 GameMates is an Android application designed to connect gamers and provide a platform for communication and interaction.
 Code Structure
